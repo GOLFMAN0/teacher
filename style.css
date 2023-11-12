@@ -1,0 +1,238 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://phonoteka.org/uploads/posts/2023-08/thumbs/1692918518_phonoteka-top-p-fon-matematika-goluboi-pinterest-5.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 77%;
+  height: 100%;
+  background: #faf5f5;
+  border: 1px #ebebeb solid;
+  box-shadow: 0 0 10px 10px #262626;
+}
+marquee {
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 0 20px 3px #262626;
+  color: #262626;
+  font-size: 55px;
+  padding: 5px 0;
+  text-shadow: -4px -3px 5px #0936e8;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.box3 {
+  width: 81%;
+  display: block;
+  float: right;
+  margin-top: 15px;
+  box-shadow: 0 0 10px 10px #40ccdb;
+}
+a {
+  text-decoration: none;
+}
+li {
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+  width: 99%;
+  border: 1px solid #0936e8;
+}
+.spisok {
+  display: block;
+  float: left;
+  margin-top: 15px;
+  width: 19%;
+}
+div nav ul li a {
+  color: #262626;
+  font-size: larger;
+  padding: 10px;
+  display: block;
+}
+div nav ul li a:hover {
+  color: #ecfc03;
+  background: linear-gradient(320deg, #0bc3e3, #125fe3, #210af5);
+}
+nav ul li ul {
+  position: absolute;
+  left: 385px;
+  width: 300px;
+  background: #faf5f5;
+  display: none;
+}
+a img {
+  border: 1px solid #0936e8;
+}
+nav ul li ul li {
+  width: 100%;
+  border: 1px solid #0936e8;
+}
+nav ul li ul li ul {
+  left: 300px;
+  bottom: 5%;
+}
+nav ul li:hover > ul {
+  display: initial;
+}
+.container_zag {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+.zag {
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  color: #0936e8;
+  font-size: 30px;
+}
+td,
+th,
+table {
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+}
+td {
+  vertical-align: middle;
+  text-align: center;
+  height: 40px;
+}
+table {
+  margin: 0 auto;
+  margin-top: 30px;
+  border-spacing: 0;
+  width: 95%;
+}
+#bigger {
+  width: 120px;
+}
+.statik {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.plan {
+  width: 81%;
+  display: block;
+  float: right;
+}
+.zag_plan {
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  color: #0936e8;
+  font-size: 45px;
+}
+.texts {
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  margin-top: 5px;
+}
+.texts-mini {
+  margin-top: 5px;
+}
+.zag_pupils {
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  color: #0936e8;
+  font-size: 22px;
+}
+#down_zag {
+  font-family: "Times New Roman", Times, serif;
+  color: #0936e8;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+}
+.fotos {
+  width: 81%;
+  margin-top: 10px;
+  display: block;
+  float: right;
+}
+.foto {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #00010a;
+  font-weight: bold;
+}
+.instr {
+  color: #210af5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.instr:hover {
+  text-decoration: underline;
+}
+.reward {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin: 0 10px;
+  margin-top: 5px;
+}
+.me {
+  display: block;
+  float: right;
+  width: 72%;
+  margin-top: 5px;
+}
+.mepng {
+  display: block;
+  float: left;
+  width: 27%;
+  margin-top: 5px;
+}
+.I {
+  width: 100%;
+}
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.rotate_270 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+nav ol li {
+  font-family: "Times New Roman", Times, serif;
+  width: 99%;
+  border: 0;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+nav ol li a {
+  text-decoration: underline;
+  color: #210af5;
+  font-size: 1.5em;
+}
+nav ol li ol li {
+  margin-left: 60px;
+  list-style: square;
+}
+nav ol li ol li ol li {
+  margin-left: 70px;
+}

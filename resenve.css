@@ -1,0 +1,44 @@
+.box {
+  max-width: 77%;
+  max-height: 100%;
+}
+marquee {
+  width: 100%;
+  padding: 5px 0;
+}
+.banner {
+  width: 100%;
+}
+.spisok {
+  width: 19%;
+}
+.box3 {
+  width: 81%;
+}
+.portret {
+  width: 100%;
+}
+nav ul li ul {
+  left: 320px;
+}
+.fotos {
+  width: 81%;
+}
+.foto {
+  width: 99%;
+}
+.plan {
+  width: 81%;
+}
+.container_zag {
+  width: 100%;
+}
+.statik {
+  width: 68%;
+}
+.me {
+  width: 72%;
+}
+.mepng {
+  width: 27%;
+}
